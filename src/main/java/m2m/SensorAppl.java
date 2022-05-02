@@ -7,7 +7,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class SensorAppl
 {
-	private static final long TIMEOUT = 30000;
+	private static final long TIMEOUT = 60000;
 
 	public static void main(String[] args) throws InterruptedException
 	{
